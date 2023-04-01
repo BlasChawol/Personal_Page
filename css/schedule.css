@@ -1,0 +1,42 @@
+#schedule_title{
+    font-size: 1.75em;
+    color: #fff;;
+    text-decoration: none;
+
+}
+
+.schedule{
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+}
+
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+tr {
+    border-top: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+th{
+    width: 70px;
+}
+td{
+    width: 70px;
+    border-left: 1px solid white;
+}
+
+.mon,.tue,.wed,.thu,.fri,.sat,.sun{
+    font-size: 1.2em;
+}
+
+.sat,.sun{
+    color: red;
+    background-color: rgba(165, 42, 42, 0.2);
+}

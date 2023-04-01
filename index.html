@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/clock.css">
+    <link rel="stylesheet" type="text/css" href="css/schedule.css">
+
+    
+    <video id="background-video" autoplay loop muted poster="">
+      <source src="mp4/The city in the rain 2.mp4" type="video/mp4">
+    </video>
+
+    <title>首頁</title>
+</head>
+<body onload="initClock()">
+
+  <h1 class="title">BlasChawol的主頁</h1>
+
+  <nav>
+    <div id="timedate">
+      <a id="mon">January</a>
+      <a id="d">1</a>,
+      <a id="y">0</a><br />
+      <a id="h">12</a> :
+      <a id="m">00</a>:
+      <a id="s">00</a>:
+      <a id="mi">000</a>
+    </div>
+      <script  src="js/clock.js"></script>
+
+    <div class="nav_bar">
+      <a>日誌</a>
+      <br/>
+      <a>行程表</a>
+      <br/>
+      <a>作品</a>
+      <br/>
+      <a href="html/about_me.html">關於我</a>
+    </div>
+  </nav>
+
+  <div class="text">
+    <div class="schedule_div">
+      <a id="schedule_title" href="html/schedule.html">本月行程表</a>
+      <div id="schedule_background">
+        <table class="schedule">
+          <tr class="month">
+            <script src="js/get_month.js"></script>
+            <th class="empty"></th><th class="empty"></th><th class="empty"></th>
+          </tr>
+          <tr class="week">
+            <td class="mon">一</td>
+            <td class="tue">二</td>
+            <td class="wed">三</td>
+            <td class="thu">四</td>
+            <td class="fri">五</td>
+            <td class="sat">六</td>
+            <td class="sun">日</td>
+          </tr>
+          <script></script>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <a class="text_title">最新日誌</a>
+      <script></script>
+    </div>
+
+  </div>
+    
+  <div class="contact">
+    <div class="mail">
+      <a>電子信箱</a>
+      <br/>
+      <a class="contact_id">blascahwol1@gmail.com</a>
+    </div>
+    <div class="discord">
+      <a>Discord</a>
+      <br/>
+      <a class="contact_id">BlasChawol#4143</a>
+    </div>
+    
+  </div>
+
+</body>
+</html>
